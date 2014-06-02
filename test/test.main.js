@@ -15,7 +15,7 @@ var c = new Cloudnull({
 
 describe('cloudnull', function () {
   after(function () {
-    child.exec('rm -rf ./test/db/*');
+    child.exec('rm -rf ./test/db/* && rm -rf ./test/files/*');
   });
 
   describe('.save', function () {

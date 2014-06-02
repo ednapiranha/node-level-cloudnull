@@ -1,6 +1,6 @@
 {
   "name": "level-cloudnull",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ephemeral cloud storage",
   "main": "main.js",
   "dependencies": {
