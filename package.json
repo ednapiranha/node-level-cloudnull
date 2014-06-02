@@ -1,9 +1,11 @@
 {
-  "name": "cloudnull",
+  "name": "level-cloudnull",
   "version": "0.0.0",
   "description": "ephemeral cloud storage",
   "main": "main.js",
-  "dependencies": {},
+  "dependencies": {
+    "level": "~0.18.0"
+  },
   "devDependencies": {
     "mocha": "~1.18.2",
     "should": "~3.2.0"
@@ -13,9 +15,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ednapiranha/node-cloudnull.git"
+    "url": "git://github.com/ednapiranha/node-level-cloudnull.git"
   },
-  "keywords": ["cloud", "storage", "ephemeral"],
+  "keywords": ["cloud", "storage", "ephemeral", "leveldb"],
   "author": "Edna Piranha <jen@ednapiranha.com> (http://ednapiranha.com)",
   "license": "BSD"
 }
