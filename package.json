@@ -1,10 +1,14 @@
 {
   "name": "level-cloudnull",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "ephemeral cloud storage",
   "main": "main.js",
   "dependencies": {
-    "level": "~0.18.0"
+    "level": "~0.18.0",
+    "level-ttl": "~0.6.1",
+    "level-sublevel": "~5.2.0",
+    "uuid": "~1.4.1",
+    "concat-stream": "~1.4.4"
   },
   "devDependencies": {
     "mocha": "~1.18.2",
